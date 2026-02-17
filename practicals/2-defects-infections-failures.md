@@ -1,14 +1,15 @@
 # COM3529 Practical Session 2 – Defects, Infections and Failures
 
-This practical involves the `DIF.java` from the Java (+Gradle) project
-that lives in the code directory of this repository. See
-[`code/lib/src/main/java/uk/ac/shef/com3529/DIF.java`](../code/lib/src/main/java/uk/ac/shef/com3529/DIF.java).
+This practical gives you the opportunity to reinforce your understanding of some of the key concepts from the [_How do Software Failures Happen?_](../slides/1-introduction.pdf) section of our first lecture: _defects_, _infection_, and _failure_.
 
-The class contains four methods: `findLast`, `countPositive`, `lastZero`, and
+We will be testing the `DIF` class from the Java (+Gradle) project
+that lives in the code directory of this repository: [`code/lib/src/main/java/uk/ac/shef/com3529/DIF.java`](../code/lib/src/main/java/uk/ac/shef/com3529/DIF.java).
+
+The class contains four [static methods](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html): `findLast`, `countPositive`, `lastZero`, and
 `oddOrPos`.
 
-Each method has a defect. You will need to write JUnit tests that reveal each defect and
-establish a fix.
+Each method has a **defect**. You will need to write JUnit tests that reveal each defect and
+establish a **fix**.
 
 Specifically, for each method in `DIF.java`, you will need to complete the
 following tasks. The tests you write should be added to a class called
