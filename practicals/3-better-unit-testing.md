@@ -1,4 +1,4 @@
-# Better Unit Testing
+# COM3529 Practical Session 3: Better Unit Testing
 
 In the `code` directory, the package [`uk.ac.shef.com3529.forum`](../code/lib/src/main/java/uk/ac/shef/com3529/forum/) represents an online forum, with users and posts. There are three classes to represent each of these aspects – [`Forum`](../code/lib/src/main/java/uk/ac/shef/com3529/forum/Forum.java), [`User`](../code/lib/src/main/java/uk/ac/shef/com3529/forum/User.java), and [`Post`](../code/lib/src/main/java/uk/ac/shef/com3529/forum/Post.java) respectively. _Spend some time familiarising yourself with these classes and how they interact._
 
