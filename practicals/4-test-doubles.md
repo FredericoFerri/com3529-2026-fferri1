@@ -1,4 +1,4 @@
-# Test Doubles
+# COM3529 Practical Session 4: Test Doubles
 
 Take a look at the
 [`uk.ac.shef.com3529.calculator`](../code/lib/src/main/java/uk/ac/shef/com3529/calculator)

@@ -1,4 +1,4 @@
-# Test Coverage
+# COM3529 Practical Session 4: Test Coverage
 
 Recall the Forum example from last week, in the
 [`uk.ac.shef.com3529.forum`](../code/lib/src/main/java/uk/ac/shef/com3529/forum/)
