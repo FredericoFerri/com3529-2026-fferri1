@@ -21,7 +21,7 @@ implements `Reader` and `Writer` to use the keyboard as input and the console as
 output, respectively. With a terminal open in the `code` directory of the
 repository, you can build and run this example:
 
-```
+```bash
 ./gradlew build
 java -cp ./lib/build/classes/java/main uk.ac.shef.com3529.calculator.CommandLineCalculator
 ```
@@ -45,13 +45,13 @@ Enter a number:
 that gets full coverage of the class.**
 
 You can check coverage with JaCoCo, as demonstrated in lectures.
-You'll need to write test doubles for the Reader and Writer
-interfaces. You can do this manually, or with Mockito. 
+You'll need to write test doubles for the `Reader` and `Writer`
+interfaces. You can do this manually, or with [Mockito](mockito.org). 
 
 Note that with Mockito, you can make a stub return different values in sequence,
 e.g.:
 
-```
+```java
 when(mock.getGreatestFootballTeams()).thenReturn("Everton", "Sheffield United");
 ```
 
@@ -59,13 +59,13 @@ That is, the `getGreatestFootballTeams()` method will return `"Everton"` the fir
 called, and then `"Sheffield United"` the second time. You can achieve the same
 effect by chaining `thenReturn` calls, as follows:
 
-```
+```java
 when(mock.getGreatestFootballTeams()).thenReturn("Everton").thenReturn("Sheffield United");
 ```
 
 You can make a stub throw an exception with `thenThrow`, used as follows:
 
-```
+```java
 when(mock.getFootballTeam("Liverpool")).thenThrow(new ObjectionalTeamException());
 ```
 
