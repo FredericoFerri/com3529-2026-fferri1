@@ -28,10 +28,10 @@ Jump to:
 
 | Week | Lecture | Practical Session |
 |-:|-|-|
-|1 | **[Introduction](slides/1-introduction.pdf)**<ul><li>Beizer's Maturity Model</li><li>Why finding all bugs is impossible</li><li>How software failures happen (the RIPR model)</li></ul>| [Getting Started](practicals/1-getting-started.md) |
-|2 | **[Testing Big and Small Part 1](slides/)**<ul><li>Test Automation</li><li>Testing Scope (The Test Triangle)</li><li>Unit Testing Part 1<ul><li>Avoiding Brittle Tests</li></ul></li></ul> | [Defects, Infections and Failures](practicals/) ([Solutions](practicals/))|
-|3 | **[Testing Big and Small Part 2](slides/)**<ul><li>Unit Testing Part 2<ul><li>Writing Clear Unit Tests</li></ul><li>Test Doubles</li></ul> | [Better Unit Testing](practicals/) ([Solutions](practicals/)) |
-|4 | **[Testing Big and Small Part 3](slides/)**<ul><li>Larger Tests</li></ul>**[Coverage Criteria, Part 1](slides/)**<ul><li>Introduction to Coverage Criteria</li></ul> | [Test Doubles](practicals/) ([Solutions](practicals/)) and [Test Coverage](practicals/) ([Solutions](practicals/))|
+|1 | **[Introduction](slides/1-introduction.pdf)**<ul><li>Beizer's Maturity Model</li><li>Why finding all bugs is impossible</li><li>How software failures happen (the RIPR model)</li></ul>| [Getting Started](practicals/1-getting-started.md) ([Solutions](practicals/1-getting-started-solution.md)) |
+|2 | **[Testing Big and Small – Part 1](slides/2-test-automation-and-scope.pdf)**<ul><li>Test Automation</li><li>Testing Scope (The Test Triangle)</li></ul> | [Defects, Infections and Failures](practicals/2-defects-infections-failures.md) ([Solutions](practicals/2-defects-infections-failures-solutions.md))|
+|3 | **Testing Big and Small – Part 2**<ul><li>[Unit Testing](slides/3-unit-testing.pdf)<ul><li>Avoiding Brittle Tests</li><li>Writing Clear Unit Tests</li></ul> | [Better Unit Testing](practicals/3-better-unit-testing.md) ([Solutions](practicals/3-better-unit-testing-solutions.md)) |
+|4 | **Testing Big and Small Part 3**<ul><li>[Test Doubles](slides/4-test-doubles.pdf)</li><li>[Larger Tests](slides/5-larger-tests.pdf)</li></ul>**[Coverage Criteria, Introduction](slides/6-coverage-criteria.pdf)**<ul><li>Introduction to Coverage Criteria</li></ul> | [Test Doubles](practicals/4-test-doubles.md) ([Solutions](practicals/)) and [Test Coverage](practicals/4-coverage.md) ([Solutions](practicals/))|
 |5 | **Coverage Criteria, Part 2**<ul><li>[Control Flow Analysis and Testing](slides/)</li><li>[Logic Analysis and Testing](slides/)</li><li>[Conclusions on Coverage](slides/)</li></ul> | [Control Flow Graphs and Logic Testing](practicals/) ([Solutions](practicals/)) |
 |6 | [**Regression Testing**](slides/) | [Regression Testing in Practice](practicals/) ([Solutions](practicals/)) |
 |7 | **[Model-Based Testing](slides/)** | [MBT Exercises](practicals/) ([Solution](practicals/)) |
@@ -58,3 +58,5 @@ COM3529 is assessed 100% by an exam, to be scheduled in the [spring exam period]
 The exam may feature questions **requiring you to write Java code**. This code
 needs to be **syntactically correct** and may involve writing JUnit tests that
 call methods in libraries studied in the module (e.g., mocking libraries).
+
+When revising for the exam, you are encouraged to consult [past exam papers](https://www.dcs.shef.ac.uk/intranet/teaching/campus/pastpapers.html).
